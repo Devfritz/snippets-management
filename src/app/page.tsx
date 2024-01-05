@@ -12,7 +12,7 @@ export default async function Home() {
     <main>
       <div className="flex justify-between mt-6">
         <h1 className="font-bold">Snippets</h1>
-        <div className="border rounded py-4 px-4">NEW</div>
+        <Link href={`snippets/new`} className="border rounded py-4 px-4 a:hover">NEW</Link>
       </div>
       {listSnippets}
     </main>
